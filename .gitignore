@@ -1,0 +1,36 @@
+# Executaveis e binarios
+*.exe
+cloudflared.exe
+
+# SQLite WAL e arquivos temporarios de transacao
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Logs e sessoes
+*.log
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
